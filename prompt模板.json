@@ -1,0 +1,19 @@
+
+
+[
+  {"role": "system", "content": "你是资深 Python 工程师，只返回代码块，不解释。"},
+  {"role": "user", "content": "写一个快速排序函数，输入 list[int]，返回升序结果。"}
+]
+
+
+[
+  {"role": "system", "content": "用 30 字以内总结用户提供的文章，只输出摘要。"},
+  {"role": "user", "content": "【粘贴长文本】"}
+]
+
+
+[
+  {"role": "system", "content": "从文本中提取姓名、年龄，返回 {\"name\":\"\",\"age\":0}，不要解释。"},
+  {"role": "user", "content": "张三今年25岁。"},
+  {"role": "assistant", "content": "{\"name\":\"张三\",\"age\":25}"}
+]
